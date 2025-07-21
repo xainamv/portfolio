@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Futuristic Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+  </head>
+  <body>
+    <div class="particles">
+      <div class="particle" style="left: 10%; animation-delay: 0s"></div>
+      <div class="particle" style="left: 30%; animation-delay: 2s"></div>
+      <div class="particle" style="left: 50%; animation-delay: 4s"></div>
+      <div class="particle" style="left: 70%; animation-delay: 6s"></div>
+      <div class="particle" style="left: 90%; animation-delay: 8s"></div>
+    </div>
+
+    <nav class="dock">
+      <div class="dock-item" data-target="hero">
+        <i class="fas fa-home"></i>
+      </div>
+      <div class="dock-item" data-target="about">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="dock-item" data-target="skills">
+        <i class="fas fa-code"></i>
+      </div>
+      <div class="dock-item" data-target="projects">
+        <i class="fas fa-briefcase"></i>
+      </div>
+      <div class="dock-item" data-target="contact">
+        <i class="fas fa-envelope"></i>
+      </div>
+    </nav>
+
+    <section id="hero" class="section hero">
+      <div>
+        <h1 class="glitch">Team Intelli-boys</h1>
+        <p
+          id="greeting"
+          style="font-size: 1rem; color: var(--text-dim); margin-bottom: 10px"
+        ></p>
+        <p class="hero-subtitle">Full Stack Developer & UI/UX Designer</p>
+        <p class="hero-desc">
+          Crafting digital experiences with cutting-edge technology
+        </p>
+        <a href="#projects" class="btn btn-primary"
+          >View Work <i class="fas fa-arrow-right"></i
+        ></a>
+        <a href="#" class="btn btn-secondary"
+          >Download CV <i class="fas fa-download"></i
+        ></a>
+      </div>
+      <div class="floating-card">
+        &lt;developer&gt;<br />
+        &nbsp;&nbsp;&lt;passion&gt;true&lt;/passion&gt;<br />
+        &nbsp;&nbsp;&lt;innovation&gt;endless&lt;/innovation&gt;<br />
+        &lt;/developer&gt;
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="section-title">About Me</h2>
+      <div class="grid-2">
+        <div>
+          <p
+            style="
+              font-size: 1.2rem;
+              color: var(--text-dim);
+              margin-bottom: 40px;
+            "
+          >
+            I'm a passionate full-stack developer with 5+ years of experience
+            creating innovative digital solutions.
+          </p>
+          <div class="grid-3">
+            <div class="card" style="text-align: center">
+              <span class="stat-number">50</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="card" style="text-align: center">
+              <span class="stat-number">5</span>
+              <span class="stat-label">Years Exp</span>
+            </div>
+            <div class="card" style="text-align: center">
+              <span class="stat-number">98</span>
+              <span class="stat-label">Satisfaction</span>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="text-align: center">
+          <div class="profile-img">
+            <img
+              src="https://analysis.aditya.ac.in/uploads/student_photos/261457.jpg"
+              alt="Profile"
+            />
+          </div>
+          <div class="tech-tags">
+            <div class="tech-tag">React</div>
+            <div class="tech-tag">Node.js</div>
+            <div class="tech-tag">Python</div>
+            <div class="tech-tag">TypeScript</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3
+            style="
+              color: var(--primary);
+              text-align: center;
+              margin-bottom: 25px;
+            "
+          >
+            Frontend
+          </h3>
+          <div class="skill-item"><i class="fab fa-react"></i> React</div>
+          <div class="skill-item">
+            <i class="fab fa-js-square"></i> TypeScript
+          </div>
+          <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS/SASS</div>
+          <div class="skill-item"><i class="fab fa-vuejs"></i> Vue.js</div>
+        </div>
+        <div class="card">
+          <h3
+            style="
+              color: var(--primary);
+              text-align: center;
+              margin-bottom: 25px;
+            "
+          >
+            Backend
+          </h3>
+          <div class="skill-item"><i class="fab fa-node-js"></i> Node.js</div>
+          <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+          <div class="skill-item">
+            <i class="fas fa-database"></i> PostgreSQL
+          </div>
+          <div class="skill-item"><i class="fab fa-aws"></i> AWS</div>
+        </div>
+        <div class="card">
+          <h3
+            style="
+              color: var(--primary);
+              text-align: center;
+              margin-bottom: 25px;
+            "
+          >
+            Design
+          </h3>
+          <div class="skill-item">
+            <i class="fas fa-palette"></i> UI/UX Design
+          </div>
+          <div class="skill-item"><i class="fab fa-figma"></i> Figma</div>
+          <div class="skill-item">
+            <i class="fas fa-magic"></i> Motion Design
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-mobile-alt"></i> Mobile Design
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <div class="grid-3">
+        <div class="card">
+          <div class="project-img">
+            <img
+              src="https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Project"
+            />
+            <div class="project-overlay">
+              <a href="#" class="project-link"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>AI Analytics Dashboard</h3>
+          <p style="color: var(--text-dim); margin: 10px 0">
+            A comprehensive dashboard built with React and D3.js.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">D3.js</span>
+            <span class="tech-tag">Node.js</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="project-img">
+            <img
+              src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Project"
+            />
+            <div class="project-overlay">
+              <a href="#" class="project-link"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>E-Commerce App</h3>
+          <p style="color: var(--text-dim); margin: 10px 0">
+            Cross-platform mobile app with real-time inventory.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">React Native</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Stripe</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="project-img">
+            <img
+              src="https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Project"
+            />
+            <div class="project-overlay">
+              <a href="#" class="project-link"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Blockchain Tracker</h3>
+          <p style="color: var(--text-dim); margin: 10px 0">
+            Real-time cryptocurrency portfolio tracker.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">Vue.js</span>
+            <span class="tech-tag">Web3</span>
+            <span class="tech-tag">Chart.js</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <div class="grid-2">
+        <div class="contact-info">
+          <h3>Let's Create Something Amazing</h3>
+          <p style="color: var(--text-dim); margin-bottom: 30px">
+            Ready to bring your ideas to life?
+          </p>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i> n332677@gmail.com
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i> +91 xxxxx 14369
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>Andhra Pradesh, India
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </div>
+        <form class="card" id="contact-form">
+          <div class="form-group">
+            <input type="text" required placeholder=" " />
+            <label>Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" required placeholder=" " />
+            <label>Email</label>
+          </div>
+          <div class="form-group">
+            <input type="text" required placeholder=" " />
+            <label>Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea
+              required
+              placeholder=" "
+              style="min-height: 120px; resize: vertical"
+            ></textarea>
+            <label>Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
