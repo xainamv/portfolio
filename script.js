@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     else if (hour < 18) text = "Good afternoon ☀️";
     else text = "Good evening 🌙";
     const greetEl = document.getElementById("greeting");
-    if (greetEl) greetEl.textContent = `${text} I'm Ronak.`;
+    if (greetEl) greetEl.textContent = `${text} We're Intelli-boys.`;
   }
   updateGreeting();
 
